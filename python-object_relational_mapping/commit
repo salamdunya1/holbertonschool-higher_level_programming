@@ -1,0 +1,7 @@
+#!/bin/bash
+chmod +x -R . 
+git config --global user.name "salamdunya1"
+git config --global user.email 'burmurdack@gmail.com'
+git add --all
+git commit -m "new commit"
+git push -u origin main
